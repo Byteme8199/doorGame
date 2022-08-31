@@ -1,20 +1,14 @@
 <template>
-  <div>
-    <Hero />
-    <hr />
-    <HomeContent />
-  </div>
+  <Game />
 </template>
 
 <script>
-import Hero from "@/components/Hero";
-import HomeContent from "@/components/HomeContent";
+import Game from "@/components/Game";
 
 export default {
   name: "home",
   components: {
-    Hero,
-    HomeContent,
+    Game,
   },
 };
 </script>
